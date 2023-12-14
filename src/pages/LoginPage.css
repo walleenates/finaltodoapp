@@ -1,0 +1,62 @@
+body {
+  background-color: #282c35; /* Dark background */
+  color: #fff; /* Light text color */
+  font-family: "Arial", sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid rgba(77, 82, 94, 0.7); /* Transparent border */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(66, 72, 82, 0.8); /* Transparent background */
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+}
+
+  
+h2 {
+  text-align: center;
+  color: #61dafb; /* Bright blue title color */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(77, 82, 94, 0.7);
+  border-radius: 5px;
+  background-color: rgba(50, 55, 66, 0.7); /* Transparent input background */
+  color: #fff;
+}
+  
+.lbttn {
+  width: 100%;
+  padding: 12px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lbttn:hover {
+  background-color: #4fa3d1; /* Slightly darker blue on hover */
+}
+
+@media screen and (max-width: 767px) {
+  .login-form {
+    width: 90%; /* Adjusted width for better responsiveness on small screens */
+    max-width: none; /* Remove max-width on small screens */
+  }
+}
