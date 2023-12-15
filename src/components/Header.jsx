@@ -11,7 +11,7 @@ const Header = () => {
   const SignOut = async () => {
     try {
       await signOut(auth);
-      navigate('/login');
+      navigate('/');
     } catch (error) {
       console.log(error);
     }
@@ -34,10 +34,10 @@ const Header = () => {
       <div className='header-container'>
         <div className='nav-bar'>
           {auth.currentUser ? (
-            <Link to='/'>Home</Link>
+            <Link to='/Home'>Home</Link>
           ) : (
             <div className='userAction'>
-              <Link to='/Login'>Login</Link>
+              <Link to='/'>Login</Link>
               <Link to='/signup'>SignUp</Link>
             </div>
           )}

@@ -14,7 +14,7 @@ const SignupPage = () => {
     try {
       if (passwordRef.current.value.length > 8) {
         if (passwordRef.current.value === passwordConfirmRef.current.value) {
-          navigate('/')
+          navigate('/Home')
           return createUserWithEmailAndPassword(auth, emailRef.current.value, passwordRef.current.value)
         } else {
           console.log(passwordRef.current.value)

@@ -16,7 +16,7 @@ const LoginPage = () => {
         auth,
         emailRef.current.value,
         passwordRef.current.value,
-        navigate('/')
+        navigate('/Home')
       ).catch((error) => console.log(error));
     } catch (error) {
       console.log(error);
