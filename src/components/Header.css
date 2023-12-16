@@ -1,12 +1,17 @@
 .header-container {
   background-color: #333;
   color: white;
-  padding: 15px 0; /* Increased top and bottom padding for better spacing */
+  padding: 15px 0; 
+  height: auto;
+  max-height: fit-content;
+ 
 }
 
 .header-container a{
   color: white;
-
+  max-width: 10%;
+  align-items: center;
+  display: flex;
 
 }
 .nav-bar {
@@ -28,6 +33,8 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-size: 16px;
+  align-items: center;
+
 }
 
 .nav-bar a:hover {
@@ -50,7 +57,7 @@
 
 .userAction a {
   margin-right: 20px; /* Increased margin for better spacing */
-  color: #3498db;
+  color: white;
   font-size: 16px; /* Slightly increased font size */
 }
 
