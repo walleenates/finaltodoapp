@@ -34,11 +34,11 @@ const Header = () => {
       <div className='header-container'>
         <div className='nav-bar'>
           {auth.currentUser ? (
-            <Link to='/Home'>Home</Link>
+            <Link  to='/Home'>Home</Link>
           ) : (
             <div className='userAction'>
-              <Link to='/'>Login</Link>
-              <Link to='/signup'>SignUp</Link>
+              <Link className="log" to='/'>Login</Link>
+              <Link className="sign" to='/signup'>SignUp</Link>
             </div>
           )}
 

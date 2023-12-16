@@ -55,10 +55,17 @@
   align-items: center;
 }
 
-.userAction a {
-  margin-right: 20px; /* Increased margin for better spacing */
+.userAction a.sign {
+  margin-right: 20px; 
   color: white;
-  font-size: 16px; /* Slightly increased font size */
+  font-size: 16px;
+  width: 290px;
+}
+.userAction a.log {
+  margin-right: 20px; 
+  color: white;
+  font-size: 16px;
+  width: 30%;
 }
 
 button {
@@ -102,11 +109,11 @@ button:hover {
 }
 @media screen and (max-width: 667px) {
   .nav-bar {
-    flex-direction: column; /* Stack navigation items vertically on small screens */
+    flex-direction: column; 
   }
 
-  .nav-bar a,
-  .userAction a,
+  .userAction,
+  .nav-bar,
   button,
   .logout-but button {
     margin: 10px 0; /* Add spacing between elements on small screens */
