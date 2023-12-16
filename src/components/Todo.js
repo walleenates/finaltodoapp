@@ -33,7 +33,7 @@ export default function Todo({
         />
         <p>Date and Time: {todo.selectedDateTime || "Not specified"}</p>
         <p>Priority: {todo.priority || "Not specified"}</p>
-        {/* Add the following lines for time tracking */}
+        {}
         <p>Start Time: {todo.startTime || "Not specified"}</p>
         <p>End Time: {todo.endTime || "Not specified"}</p>
       </div>

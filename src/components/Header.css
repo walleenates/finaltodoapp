@@ -2,7 +2,8 @@
 .header-container {
   background-color: #333;
   color: white;
-  padding: 15px 0; /* Increased top and bottom padding for better spacing */
+  padding: 15px 0; 
+  height: 100px;
 }
 
 .nav-bar {
@@ -11,15 +12,15 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: auto;
   
 }
 
 .nav-bar a {
   text-decoration: none;
   color: white;
-  margin-right: 20px; /* Increased margin for better spacing */
-  font-weight: bold;
-  font-size: 16px; /* Slightly increased font size */
+  margin-right: 20px; 
+  font-size: 25px; 
   transition: color 0.3s ease;
 }
 
@@ -43,7 +44,7 @@ button {
   background-color: #3498db;
   color: white;
   border: none;
-  padding: 12px 20px; /* Adjusted padding for a more balanced button */
+  padding: 12px 20px; 
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -92,9 +93,8 @@ button:hover {
   }
 }
 .user-info-container {
-  padding: 20px;
+  padding: 1px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .welcome-message {
